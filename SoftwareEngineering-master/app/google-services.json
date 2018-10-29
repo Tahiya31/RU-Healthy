@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "387397422876",
+    "firebase_url": "https://ruhealthy-69349.firebaseio.com",
+    "project_id": "ruhealthy-69349",
+    "storage_bucket": "ruhealthy-69349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387397422876:android:960edd9e61dbc8d4",
+        "android_client_info": {
+          "package_name": "com.example.softwareengineering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387397422876-ou3rdjjor7g4bvtkehi5hoh2gm3ahc9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXEgPFhYwy8ExidRzOxpgCptxra81YGMQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

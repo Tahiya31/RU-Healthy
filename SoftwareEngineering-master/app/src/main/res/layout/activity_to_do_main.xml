@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/faded_grey"
+    android:orientation="vertical"
+    tools:context="com.example.softwareengineering.ToDoMain">
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/addNewToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="16dp"
+            android:onClick="addNewToDo"
+            android:src="@android:drawable/ic_input_add"
+            app:fabSize="normal"
+
+            tools:ignore="OnClick" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/LIST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/noToDoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="66dp"
+            android:text="Add Excercise "
+            android:textColor="#939090"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/noToDoIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            app:srcCompat="@drawable/ic" />
+
+
+</RelativeLayout>
+

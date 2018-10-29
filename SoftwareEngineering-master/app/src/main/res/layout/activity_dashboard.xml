@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/faded_grey"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="187dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/user"
+                    android:text="Profile" />
+
+
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="113dp"
+                    android:background="@android:color/transparent"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/recovery"
+                    android:text="Heart Rate Monitor"
+                    android:textColorLink="@android:color/holo_red_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:layout_width="187dp"
+                    android:layout_height="116dp"
+                    android:background="@android:color/transparent"
+                    android:cropToPadding="false"
+                    android:paddingTop="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/steps"
+                    android:text="Step Counter" />
+
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/todo"
+                    android:text="Exercise Scheduler " />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/button6"
+                    android:layout_width="185dp"
+                    android:layout_height="104dp"
+                    android:background="@android:color/transparent"
+                    android:cropToPadding="false"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/heart"
+                    android:text="Recover_Rate" />
+                <ImageButton
+
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/phys"
+                    android:text="physician" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@android:color/transparent"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Log Out" />
+
+</LinearLayout>
